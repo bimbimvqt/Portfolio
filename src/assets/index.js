@@ -46,9 +46,24 @@ import rubyrails from "./tech/rubyrails.png";
 import coverhunt from "./company/coverhunt.png";
 import dcc from "./company/dcc.png";
 import kelhel from "./company/kelhel.png";
+import vdt from "./company/logo.png";
+import hitachi from "./company/hitachi.webp";
+import teamsolutions from "./company/teamsolutions.png";
 import microverse from "./company/microverse.png";
 
 import komikult from "./projects/komikult.png";
+import coinrona from "./projects/1.webp";
+import coinrona2 from "./projects/2.webp";
+import coinrona3 from "./projects/3.webp";
+import coinrona4 from "./projects/4.webp";
+import coinrona5 from "./projects/5.webp";
+import coinrona6 from "./projects/6.webp";
+import welcome from "./projects/welcome.png";
+import team from "./projects/team.png";
+import editTeam from "./projects/editteam.png";
+import home from "./projects/home.png";
+import addteammates from "./projects/addteammate.png";
+import editgroup from "./projects/editgroup.png";
 import leaderboard from "./projects/leaderboard.png";
 import math from "./projects/math-magicians.png";
 import movie from "./projects/movie-metro.png";
@@ -86,6 +101,8 @@ export {
   flutter,
   bootstrap,
   js,
+  vdt,
+  hitachi,
   nodejs,
   postgresql,
   rubyrails,
@@ -101,9 +118,22 @@ export {
   math,
   movie,
   nyeusi,
+  coinrona,
+  coinrona2,
+  coinrona3,
+  coinrona4,
+  coinrona5,
+  coinrona6,
+  welcome,
+  team,
+  editTeam,
+  home,
+  addteammates,
+  editgroup,
   space,
   coverhunt,
   dcc,
   kelhel,
   microverse,
+  teamsolutions,
 };

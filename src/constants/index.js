@@ -18,6 +18,17 @@ import {
   socket,
   graphql,
   komikult,
+  coinrona,
+  coinrona2,
+  coinrona3,
+  coinrona4,
+  coinrona5,
+  coinrona6,
+  welcome,
+  team,
+  addteammates,
+  editgroup,
+  home,
   leaderboard,
   math,
   movie,
@@ -26,6 +37,10 @@ import {
   dcc,
   kelhel,
   microverse,
+  editTeam,
+  vdt,
+  hitachi,
+  teamsolutions,
 } from "../assets";
 
 export const navLinks = [
@@ -123,148 +138,137 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Front-End Developer",
-    company_name: "Cover Hunt",
-    icon: coverhunt,
+    title: "Flutter Developer",
+    company_name: "VDT TECHNOLOGY",
+    icon: vdt,
     iconBg: "#333333",
-    date: "Aug 2021 - Feb 2022",
+    date: "Feb 2021 - Current",
   },
   {
-    title: "Mentor (Volunteer)",
-    company_name: "Microverse",
-    icon: microverse,
+    title: "ReactJs Developer",
+    company_name: "Hitachi Digital Services",
+    icon: hitachi,
     iconBg: "#333333",
-    date: "Mar 2022 - May 2022",
+    date: "Jan 2021 - Feb 2022",
   },
   {
-    title: "Junior Software Engineer",
-    company_name: "Kelhel",
-    icon: kelhel,
+    title: "Flutter Developer",
+    company_name: "Teamsolutions VietNam",
+    icon: teamsolutions,
     iconBg: "#333333",
-    date: "May 2022 - Oct 2022",
-  },
-  {
-    title: "Full Stack Developer",
-    company_name: "Diversity Cyber Council",
-    icon: dcc,
-    iconBg: "#333333",
-    date: "Sep 2022 - Present",
+    date: "Apr 2022 - Aug 2024",
   },
 ];
 
-const projects = [
+const projects1 = [
   {
     id: "project-1",
-    name: "KomiKult",
-    description: "A comic characters list app that displays Marvel characters.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: komikult,
-    repo: "https://github.com/shaqdeff/KomiKult",
-    demo: "https://shaqdeff.github.io/KomiKult/",
+    name: "My trainsactions",
+    description:
+      "These individuals or entities often have a significant impact on the market.",
+    image: coinrona,
+    repo: "https://github.com/VDT-TECHNOLOGY/coinrona-v2",
+    demo: "https://coinrona.vdt.technology/",
   },
   {
     id: "project-2",
-    name: "Leaderboard",
+    name: "Details",
     description:
-      "A leaderboard list app that displays scores submitted by different players.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: leaderboard,
-    repo: "https://github.com/shaqdeff/Leaderboard",
-    demo: "https://shaqdeff.github.io/Leaderboard/",
+      "These individuals or entities often have a significant impact on the market.",
+    image: coinrona2,
+    repo: "https://github.com/VDT-TECHNOLOGY/coinrona-v2",
+    demo: "https://coinrona.vdt.technology/",
   },
   {
     id: "project-3",
-    name: "Math Magicians",
+    name: "Appwide Activity",
     description: "This is a single-page calculator app built with React",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: math,
-    repo: "https://github.com/shaqdeff/Math-Magicians",
-    demo: "https://inspiring-medovik-37d3b3.netlify.app/",
+    image: coinrona3,
+    repo: "https://github.com/VDT-TECHNOLOGY/coinrona-v2",
+    demo: "https://coinrona.vdt.technology/",
   },
   {
     id: "project-4",
-    name: "Movie Metro",
+    name: "Add address",
     description: `A single-page application that allows users to search for any movie or show's ratings and its details.`,
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: movie,
-    repo: "https://github.com/shaqdeff/Movie-Metro",
-    demo: "https://movie-metro.netlify.app/",
+    image: coinrona4,
+    repo: "https://github.com/VDT-TECHNOLOGY/coinrona-v2",
+    demo: "https://coinrona.vdt.technology/",
   },
   {
     id: "project-5",
-    name: "Nyeusi Fest Site",
+    name: "Addresses",
     description:
       "This is a demo concert website for a music festival called Nyeusi.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: nyeusi,
-    repo: "https://github.com/shaqdeff/Nyeusi-Fest-Site",
-    demo: "https://shaqdeff.github.io/Nyeusi-Fest-Site/",
+    image: coinrona5,
+    repo: "https://github.com/VDT-TECHNOLOGY/coinrona-v2",
+    demo: "https://coinrona.vdt.technology/",
+  },
+  {
+    id: "project-6",
+    name: "Groups",
+    description:
+      "This is a demo concert website for a music festival called Nyeusi.",
+    image: coinrona6,
+    repo: "https://github.com/VDT-TECHNOLOGY/coinrona-v2",
+    demo: "https://coinrona.vdt.technology/",
   },
 ];
 
-export { services, technologies, experiences, projects };
+const projects2 = [
+  {
+    id: "project-1",
+    name: "Welcome",
+    description:
+      "Slack tools to help you manage your remote team across different time zones.",
+    image: welcome,
+    repo: "https://github.com/VDT-TECHNOLOGY/teamtz-mobile",
+    demo: "https://github.com/VDT-TECHNOLOGY/teamtz-mobile",
+  },
+  {
+    id: "project-2",
+    name: "Home",
+    description:
+      "Slack tools to help you manage your remote team across different time zones.",
+    image: team,
+    repo: "https://github.com/VDT-TECHNOLOGY/teamtz-mobile",
+    demo: "https://github.com/VDT-TECHNOLOGY/teamtz-mobile",
+  },
+  {
+    id: "project-3",
+    name: "Edit Team",
+    description:
+      "Slack tools to help you manage your remote team across different time zones.",
+    image: editTeam,
+    repo: "https://github.com/VDT-TECHNOLOGY/teamtz-mobile",
+    demo: "https://github.com/VDT-TECHNOLOGY/teamtz-mobile",
+  },
+  {
+    id: "project-4",
+    name: "Add Teammates",
+    description: `Slack tools to help you manage your remote team across different time zones.`,
+    image: addteammates,
+    repo: "https://github.com/VDT-TECHNOLOGY/teamtz-mobile",
+    demo: "https://github.com/VDT-TECHNOLOGY/teamtz-mobile",
+  },
+  {
+    id: "project-5",
+    name: "Edit Group",
+    description:
+      "Slack tools to help you manage your remote team across different time zones.",
+    image: editgroup,
+    repo: "https://github.com/VDT-TECHNOLOGY/teamtz-mobile",
+    demo: "https://github.com/VDT-TECHNOLOGY/teamtz-mobile",
+  },
+  {
+    id: "project-6",
+    name: "Home",
+    description:
+      "Slack tools to help you manage your remote team across different time zones.",
+    image: home,
+    repo: "https://github.com/VDT-TECHNOLOGY/teamtz-mobile",
+    demo: "https://github.com/VDT-TECHNOLOGY/teamtz-mobile",
+  },
+];
+
+export { services, technologies, experiences, projects1, projects2 };
