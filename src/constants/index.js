@@ -174,7 +174,7 @@ const projects1 = [
     id: "project-2",
     name: "Details",
     description:
-      "These individuals or entities often have a significant impact on the market.",
+      "Easily keep track of your bitcoin holdings and transactions, even when your wallet is offline.",
     image: coinrona2,
     repo: "https://github.com/VDT-TECHNOLOGY/coinrona-v2",
     demo: "https://coinrona.vdt.technology/",
@@ -182,7 +182,8 @@ const projects1 = [
   {
     id: "project-3",
     name: "Appwide Activity",
-    description: "This is a single-page calculator app built with React",
+    description:
+      "It helps to have a better understanding of the market, and make more informed decisions about your own investments.",
     image: coinrona3,
     repo: "https://github.com/VDT-TECHNOLOGY/coinrona-v2",
     demo: "https://coinrona.vdt.technology/",
@@ -190,7 +191,7 @@ const projects1 = [
   {
     id: "project-4",
     name: "Add address",
-    description: `A single-page application that allows users to search for any movie or show's ratings and its details.`,
+    description: `Making it easy to understand the current value of your holdings and how they are changing over time.`,
     image: coinrona4,
     repo: "https://github.com/VDT-TECHNOLOGY/coinrona-v2",
     demo: "https://coinrona.vdt.technology/",
@@ -198,8 +199,7 @@ const projects1 = [
   {
     id: "project-5",
     name: "Addresses",
-    description:
-      "This is a demo concert website for a music festival called Nyeusi.",
+    description: "Listen to the market signal.",
     image: coinrona5,
     repo: "https://github.com/VDT-TECHNOLOGY/coinrona-v2",
     demo: "https://coinrona.vdt.technology/",
@@ -207,8 +207,7 @@ const projects1 = [
   {
     id: "project-6",
     name: "Groups",
-    description:
-      "This is a demo concert website for a music festival called Nyeusi.",
+    description: "Never miss any transaction notifications.",
     image: coinrona6,
     repo: "https://github.com/VDT-TECHNOLOGY/coinrona-v2",
     demo: "https://coinrona.vdt.technology/",
@@ -229,7 +228,7 @@ const projects2 = [
     id: "project-2",
     name: "Home",
     description:
-      "Slack tools to help you manage your remote team across different time zones.",
+      "Super fast onboarding! Start visualizing your whole remote team in less than 10 seconds.",
     image: team,
     repo: "https://github.com/VDT-TECHNOLOGY/teamtz-mobile",
     demo: "https://github.com/VDT-TECHNOLOGY/teamtz-mobile",
@@ -238,7 +237,7 @@ const projects2 = [
     id: "project-3",
     name: "Edit Team",
     description:
-      "Slack tools to help you manage your remote team across different time zones.",
+      "Visualize time zone difference to better understand time zone gaps in your team.",
     image: editTeam,
     repo: "https://github.com/VDT-TECHNOLOGY/teamtz-mobile",
     demo: "https://github.com/VDT-TECHNOLOGY/teamtz-mobile",
@@ -246,7 +245,7 @@ const projects2 = [
   {
     id: "project-4",
     name: "Add Teammates",
-    description: `Slack tools to help you manage your remote team across different time zones.`,
+    description: `Visualize your remote team organized by team zones.`,
     image: addteammates,
     repo: "https://github.com/VDT-TECHNOLOGY/teamtz-mobile",
     demo: "https://github.com/VDT-TECHNOLOGY/teamtz-mobile",
@@ -254,8 +253,7 @@ const projects2 = [
   {
     id: "project-5",
     name: "Edit Group",
-    description:
-      "Slack tools to help you manage your remote team across different time zones.",
+    description: "View teammates working hours in a time-line.",
     image: editgroup,
     repo: "https://github.com/VDT-TECHNOLOGY/teamtz-mobile",
     demo: "https://github.com/VDT-TECHNOLOGY/teamtz-mobile",
@@ -264,7 +262,7 @@ const projects2 = [
     id: "project-6",
     name: "Home",
     description:
-      "Slack tools to help you manage your remote team across different time zones.",
+      "Glance over the team using the grouped users view or look at individual users on a detailed user view.",
     image: home,
     repo: "https://github.com/VDT-TECHNOLOGY/teamtz-mobile",
     demo: "https://github.com/VDT-TECHNOLOGY/teamtz-mobile",
